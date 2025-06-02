@@ -51,7 +51,7 @@ export default function News(props) {
 
   return (
     <>
-      <h2 className='text-center' style={{ margin: "30px 0px", marginTop: "80px" }}>News OP - Top {capitalizeFirstLetter(props.category)}  Headlines</h2>
+      <h2 className='text-center' style={{ margin: "30px 0px", marginTop: "80px" }}>News OP - Top {capitalizeFirstLetter(props.category)}  <span className='badge bg-danger'>Headlines</span></h2>
       <div className='text-center'>
         {loading && <Spinner />}
       </div>
